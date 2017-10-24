@@ -9,8 +9,8 @@ body {
 }
 header {
 	background-image: url("images/blog_header_bg.jpg");
-	padding: 60px;
-	margin-bottom: 40px;
+	padding: 40px;
+	margin: 30px;
 }
 header a {
 	font-weight: 600;
@@ -107,6 +107,7 @@ footer {
 	padding-top: 50px;
 }
 footer a {
-	padding: 30px;
-
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 30px;
 }
