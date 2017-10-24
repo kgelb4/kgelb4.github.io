@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: "raleway", sans-serif;
+	text-align: center;
+}
+header {
+	background-image: url("images/blog_header_bg.jpg");
+	padding: 60px;
+	margin-bottom: 40px;
+}
+header a {
+	font-weight: 600;
+	font-size: 37px;
+	color: #44545E;
+	text-decoration: none;
+}
+nav a {
+	text-decoration: none;
+	color: #7B98AA;
+	padding: 50px 50px 50px 50px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+h1 a {
+	text-transform: uppercase;
+	letter-spacing:18px;
+	font-weight: lighter;
+}
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+	margin: auto;
+}
+article h3 {
+	font-family: "raleway", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #44545E;
+}
+article h2 {
+	text-align: left;
+	font-family: "raleway", sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #44545E;
+	margin-bottom: 50px;
+}
+article p {
+	font-family: "lato", sans-serif;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 400;
+}
+aside h3 {
+	font-family: "raleway", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #44545E;
+	text-align: left;
+	text-transform: uppercase;
+}
+aside ul {
+	font-family: "raleway", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: left;
+}
+aside li a {
+	text-decoration: none;
+	color: #7B98AA;
+	text-align: left;
+	line-height: 30px;
+	padding: 70px;
+}
+aside {
+	text-align: left;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+article {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+aside img {
+	align-items: left;
+}
+footer p {
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 40px;
+	text-decoration: none;
+	color: #44545E;
+}
+footer {
+	background-color: #cdf3f6;
+	width: 100%;
+	position: absolute;
+	padding-top: 50px;
+}
+footer a {
+	padding: 30px;
+
+}
