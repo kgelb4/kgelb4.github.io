@@ -35,15 +35,41 @@ $('#close').on('click', function () {
 	$('.modal-bg').fadeOut(500);
 });
 
-$('.signup').hide();
+// Hide .modal-bg
+$('.modal-bg2').hide();
 
-// not working :(
-
-$('.open-signup').on('click', function (e) {
+// When the user clicks .open-modal
+$('.open-modal2').on('click', function (e) {
   e.preventDefault();
     // Fade in .modal-bg
-    $('.signup').fadeIn(500);
+    $('.modal-bg2').fadeIn(500);
 });
-$('#close').on('click', function () {
-	$('.signup').fadeOut(500);
+$('#close2').on('click', function () {
+	$('.modal-bg2').fadeOut(500);
 });
+
+// Hide .modal-bg
+$('.modal-bg3').hide();
+
+// When the user clicks .open-modal
+$('.open-modal3').on('click', function (e) {
+  e.preventDefault();
+    // Fade in .modal-bg
+    $('.modal-bg3').fadeIn(500);
+});
+$('#close3').on('click', function () {
+	$('.modal-bg3').fadeOut(500);
+});
+
+// $('.signup').hide();
+//
+// // not working :(
+//
+// $('.open-signup').on('click', function (e) {
+//   e.preventDefault();
+//     // Fade in .modal-bg
+//     $('.signup').fadeIn(500);
+// });
+// $('#close').on('click', function () {
+// 	$('.signup').fadeOut(500);
+// });

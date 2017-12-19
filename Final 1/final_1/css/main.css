@@ -197,6 +197,28 @@ input {
   justify-content: center;
   align-items: center;
 }
+.modal-bg2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-bg3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .signup {
 position: fixed;
 top: 20;
@@ -212,4 +234,7 @@ color: #000080;
 @media screen and (max-width: 400px) {
 	body, section, nav, nav a {
 		display: block;
+  }
+  .dropdown {
+    display: block;
   }
