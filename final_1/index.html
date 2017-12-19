@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AutoCupid</title>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <body>
+    <nav>
+      <a class="hamburger" href=""><i class="fa fa-bars"></i></a>
+      <ul>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Resources</a>
+        <a href="#">Articles</a>
+      </ul>
+    </nav>
+    <header>
+      <h1>AutoCupid</h1>
+      <h2>Matching with Your Perfect Car Today.</h2>
+    </header>
+    <h3>Let's Start Here:</h3>
+    <section>
+      <h4>Cars</h4>
+      <div class="cars">
+
+        <div class="subcompact">
+          <a href="">
+            <img src="images/Toyota_Yaris.Side.jpeg" alt="Yaris">
+            <span class="overlay"></span>
+            <p>Sub-Compacts</p>
+          </a>
+        </div>
+
+        <div class="compact">
+          <a href="">
+            <img src="images/Chevy_Cruze.Side.jpeg" alt="Cruze">
+            <span class="overlay"></span>
+            <p>Compact</p>
+          </a>
+        </div>
+
+        <div class="midsize">
+          <a href="#" class="open-modal">
+            <img src="images/Honda_Accord.Side.jpeg" alt="Accord">
+            <span class="overlay"></span>
+            <p>Mid-Size</p>
+          </a>
+        </div>
+
+        <div class="fullsize">
+          <a href="">
+            <img src="images/Buick_LaCrosse.Side.jpeg" alt="LaCrosse">
+            <span class="overlay"></span>
+            <p>Full-Size</p>
+          </a>
+        </div>
+        
+        <div class="electric">
+          <a href="">
+            <img src="images/Ford_Fusion.Side.jpeg" alt="Fusion">
+            <span class="overlay"></span>
+            <p>Electric</p>
+          </a>
+        </div>
+      </div>
+
+
+      <h4>SUVs/Crossovers</h4>
+      <div class="trucks">
+        <div class="subcompactt">
+          <a href="#" class="open-modal">
+            <img src="images/Jeep_Renegade.Side.jpeg" alt="Renegade">
+            <span class="overlay"></span>
+            <p>Sub-Compact</p>
+          </a>
+        </div>
+        <div class="compactt">
+          <a href="">
+            <img src="images/Hyundai_Tucson.Side.jpeg" alt="Tucson">
+            <span class="overlay"></span>
+            <p>Compact</p>
+          </a>
+        </div>
+        <div class="midsizet">
+          <a href="">
+            <img src="images/Mazda_CX9.Side.jpeg" alt="CX9">
+            <span class="overlay"></span>
+            <p>Mid-Size</p>
+          </a>
+        </div>
+        <div class="fullsizet">
+          <a href="">
+            <img src="images/Chevy_Tahoe.Side.jpeg" alt="Tahoe">
+            <span class="overlay"></span>
+            <p>Full-Size</p>
+          </a>
+        </div>
+        <div class="extended">
+          <a href="">
+            <img src="images/Cadillac_Escalade.Side.jpeg" alt="Escalade">
+            <span class="overlay"></span>
+            <p>Extended</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+
+      <h4>Minivans and Pick-Ups</h4>
+      <div class="vans">
+        <div class="minivans">
+          <a href="">
+            <img src="images/Chrysler_Pacifica.Side.jpeg" alt="Pacifica">
+            <span class="overlay"></span>
+            <p>Minivans</p>
+          </a>
+        </div>
+        <div class="midsizev">
+          <a href="">
+            <img src="images/GMC_Canyon.Side.jpeg" alt="Canyon">
+            <span class="overlay"></span>
+            <p>Mid-Size</p>
+          </a>
+        </div>
+        <div class="fullsizev">
+          <a href="">
+            <img src="images/Ford_Raptor.Side.jpeg" alt="Raptor">
+            <span class="overlay"></span>
+            <p>Full-Size</p>
+          </a>
+        </div>
+      </div>
+
+
+
+
+      <section class="dropdown">
+        <div class="overlayd">
+          <h3>And Now Here:</h3>
+          <h4>Makes the Wheels Go..</h4>
+          <form id="options-form" action="">
+            <select id="drive-train">
+              <option value="AWD">AWD</option>
+              <option value="FWD">FWD</option>
+              <option value="RWD">RWD</option>
+              <option value="4WD">4WD</option>
+              <option value="4X4">4X4</option>
+            </select>
+            <h4>Makes the Car Go Vroom..</h4>
+            <select id="engine">
+              <option value="4-Cylinder">4-Cylinder</option>
+              <option value="6-Clyinder">6-Clyinder</option>
+              <option value="8-Clyinder">8-Clyinder</option>
+              <option value="More Than 8!">More Than 8!</option>
+            </select>
+            <h4>"PRNDL"</h4>
+            <select id="transmission">
+              <option value="Automatic">Automatic</option>
+              <option value="Manual">Manual</option>
+              <option value="Not Sure I Know What This Means..">Not Sure I Know What This Means..</option>
+            </select>
+            <h4>Exterior Color</h4>
+            <select id="color">
+              <option value="Black">Black</option>
+              <option value="Blue">Blue</option>
+              <option value="Brown">Brown</option>
+              <option value="Gray">Gray</option>
+              <option value="Green">Green</option>
+              <option value="Gold">Gold</option>
+              <option value="Purple">Purple</option>
+              <option value="Orange">Orange</option>
+              <option value="Red">Red</option>
+              <option value="Silver">Silver</option>
+              <option value="Yellow">Yellow</option>
+              <option value="White">White</option>
+              <option value="Surprise Me!">Surprise Me!</option>
+            </select>
+            <h4>Interior Color</h4>
+            <select id="interior">
+              <option value="Black">Black</option>
+              <option value="Brown">Brown</option>
+              <option value="Gray">Gray</option>
+              <option value="Tan">Tan</option>
+              <option value="Red">Red</option>
+              <option value="Whatever They Got!">Whatever They Got!</option>
+            </select>
+            <h4>Important Features</h4>
+            <div class="features">
+              <select id="options">
+                <option value="Sun/Moon-Roof">Sun/Moon-Roof</option>
+                <option value="Remote-Start">Remote-Start</option>
+                <option value="Apple Carplay/Android Auto">Apple Carplay/Android Auto</option>
+                <option value="XM/Sirius Satellite Radio"></option>
+                <option value="Emergency Service (Ex. OnStar)">Emergency Service (Ex. OnStar)</option>
+                <option value="Autonomous Technology">Autonomous Technology</option>
+                <option value="Just Has to Go..">Just Has to Go..</option>
+              </select>
+              <button type="submit">Submit</button>
+
+
+            </form>
+
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="wrap">
+          <div class="social-links">
+            <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/k_gelb4/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=">https://www.linkedin.com/in/kevingelb4/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+          <input type="text" placeholder="Email Address">
+          <button type="submitupdate" class="open-signup">Sign-Up for Updates!</button>
+          <a href="#" class="open-signup">
+            <div class="signup">
+              <div class="signupcontent">
+                <h3>Thanks for Stopping By!</h3>
+                <p>Dont Forget to Share Your Experience!</p>
+                <button id="close">Close</button>
+              </div>
+            </div>
+          </footer>
+
+          <div class="modal-bg">
+            <div class="modal-carousel">
+              <img src="images/18accord.png" alt="acc">
+              <img src="images/18camry.png" alt="cam">
+              <img src="images/18fusion.png" alt="fus">
+              <img src="images/18malibu.png" alt="mal">
+              <!-- <img src="images/18sonota.png" alt="son">
+              <img src="images/18optima.png" alt="opt">
+              <img src="images/18legacy.png" alt="leg">
+              <img src="images/18altima.png" alt="alt">
+              <img src="images/18mazda6.png" alt="maz"> -->
+              <button id="close">Close</button>
+            </div>
+          </div>
+
+          <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+          <script src="js/main.js"></script>
+        </body>
+        </html>
