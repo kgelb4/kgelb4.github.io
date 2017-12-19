@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
+
+/*Base styles:*/
+
+body {
+  background-color: #0C1B33;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom right, #0C1B33, white);
+}
+header {
+  background-image: url("../images/Header Image.jpeg");
+  margin: auto 0;
+  background-size: cover;
+  padding-bottom: 300px;
+  color: white;
+  text-shadow: 30px;
+  top: 0;
+  font-family: "Lobster", Cursive;
+}
+header h1{
+  margin: auto;
+}
+header h2 {
+  font-size: 40px;
+  padding-bottom: 60px;
+  font-family: "Raleway", sans-serif;
+  color: #B7CECE;
+}
+h1 {
+  font-size: 150px;
+  margin-bottom: 5px;
+}
+h2 {
+    padding-bottom: 60px;
+    margin-top: 20px;
+}
+nav {
+  width: 100%;
+  position: fixed;
+  height: auto;
+  background-color: white;
+  top: 0;
+  word-spacing: 30px;
+  text-transform: uppercase;
+}
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+nav a:hover {
+  color: purple;
+}
+h3, h4, select {
+  font-family: "Raleway", sans-serif;
+}
+.cars {
+	font-family: "Raleway", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #BBBAC6;
+  column-gap: 10px;
+}
+.cars a {
+  color: #0C1B33;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.trucks {
+	font-family: "Raleway", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #BBBAC6;
+  column-gap: 10px;
+}
+.trucks a {
+  color: #0C1B33;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.vans {
+  font-family: "Raleway", sans-serif;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #BBBAC6;
+
+}
+.vans a {
+  color: #0C1B33;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.minivans {
+  padding-left: 150px;
+}
+.fullsizev {
+  padding-right: 150px;
+}
+.dropdown {
+  background-image: url("../images/Dropdown_img.jpg");
+  background-size: cover;
+  margin: auto 0;
+  padding: 300px;
+  image-resolution: from-image;
+  position: relative;
+  padding-top: 200px;
+}
+.overlayd {
+  opacity: 0.6;
+  background-color: ;
+  font-size: 30px;
+}
+.overlayd option {
+  opacity: 2;
+}
+.overlayd h3, h4 {
+  color: black;
+  opacity: 1;
+  margin: auto;
+  padding-top: 40px;
+  padding bottom: 60px;
+}
+.features {
+  padding-bottom: 50px;
+}
+
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+#submitform {
+  /*display: inline-block;*/
+  background-color: #666666;
+  border: solid 2px white;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+  color:white;
+  font-size: 20px;
+  /*align-content: center;*/
+  outline: none;
+  border-radius: 100px;
+
+}
+footer {
+  background-color: #BBBAC6;
+  overflow: auto;
+}
+.social-links a {
+  color: white;
+  font-size: 50px;
+  padding: 15px;
+  margin: 30px;
+}
+button {
+	cursor: pointer;
+	outline: 0;
+	border: 2px solid black;
+	color: white;
+	padding: 8px 25px;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	transition: all .3s ease-in-out;
+}
+
+button:hover {
+	background-color: white;
+	color: purple;
+	font-weight: 600;
+}
+input {
+  padding: 8px;
+  font-size: 10px;
+  border-radius: 20px;
+}
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup {
+position: fixed;
+top: 20;
+left: 20;
+right: 20;
+bottom: 20;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000080;
+}
+@media screen and (max-width: 400px) {
+	body, section, nav, nav a {
+		display: block;
+  }
